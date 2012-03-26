@@ -1,0 +1,60 @@
+h1,h2,h3,h4,h5,h6,*{font-family:Georgia;font-weight:700}
+h1{color:#fff;font-size:31px;font-weight:700}
+h2{font-size:26px;padding:0 0 10px}
+h3{font-size:17px;padding:0 0 10px}
+h4{font-size:16px;padding:0 0 5px}
+h5{font-size:14px;padding:0 0 5px}
+h6{font-size:12px;padding:0 0 5px}
+a{color:#57a000;text-decoration:none}
+a:active{color:#777}
+a:focus{outline:1px}
+strong{color:#333;font-weight:700}
+small{font-size:.85em}
+pre{font-family:monospace}
+p{line-height:1.6em;padding:5px 0 10px}
+.clear{clear:both}
+.align-left{float:left}
+.button{background:#459300 url(../images/login/bg-button-green.gif) top left repeat-x!important;border:1px solid #459300!important;color:#fff!important;cursor:pointer;display:inline-block;font-size:11px!important;padding:4px 7px!important}
+.button:hover{text-decoration:underline}
+.button:active{padding:5px 7px 3px!important}
+a.remove-link{color:#b00}
+form label{display:block;font-weight:700;padding:0 0 10px}
+form fieldset legend{font-weight:700;margin-bottom:10px;padding-top:10px}
+form p small{color:#777;font-size:.75em}
+form input.text-input,form select,form textarea,form .wysiwyg{background:#fff url(../images/login/bg-form-field.gif) top left repeat-x;border:1px solid #d5d5d5;color:#333;font-size:13px;padding:6px}
+form .small-input{width:25%!important}
+form .medium-input{width:50%!important}
+form .large-input{font-size:16px!important;padding:8px!important;width:97.5%!important}
+form textarea{font-family:Arial, Helvetica, sans-serif;width:97.5%!important}
+form select{background:#fff;padding:4px}
+form input[type=checkbox],form input[type=radio]{background:none;border:0;padding:0}
+.notification{background-position:10px 11px!important;background-repeat:no-repeat!important;border:1px solid;font-size:13px;margin:0 0 15px;padding:0;position:relative;width:99.8%}
+#error{display:none}
+.attention{background:#fffbcc url(../images/login/exclamation.png) 10px 11px no-repeat;border-color:#e6db55;color:#666452}
+.information{background:#dbe3ff url(../images/login/information.png);border-color:#a2b4ee;color:#585b66}
+.success{background:#d5ffce url(../images/login/tick_circle.png);border-color:#9adf8f;color:#556652}
+.error{background:#ffcece url(../images/login/cross_circle.png);border-color:#df8f8f;color:#665252}
+.notification div{display:block;font-style:normal;line-height:1.5em;padding:10px 10px 10px 30px;text-align:center}
+.notification .close{color:#900;font-size:9px;position:absolute;right:5px;top:5px}
+.input-notification{background-color:transparent;background-position:left 2px;background-repeat:no-repeat;margin:0 0 0 5px;padding:2px 0 2px 22px}
+#login-wrapper #login-content .notification{background-color:#141414;border:0;color:#fff!important;overflow:hidden}
+#wrapper.login{background:#222 url(../images/login/bg-login.gif);color:#fff}
+#login-wrapper{background:url(../images/login/bg-login-top.png) 0 -95px repeat-x}
+#login-wrapper #login-top{padding:40px 0 50px;text-align:center;width:100%}
+#login-wrapper #login-content{margin:15px auto;text-align:left;width:330px;position:relative; top: 60px;}
+#login-wrapper #login-content label{color:#fff;float:left;font-size:14px;font-weight:400;padding:0;width:115px}
+#login-wrapper #login-content input{background:#fff;border:0;float:right;margin:0 0 20px;width:200px}
+#login-wrapper #login-content p{padding:0}
+#login-wrapper #login-content p#remember-password input{background:none;border:0;float:none;margin:0 10px 0 0;width:auto}
+#login-wrapper #login-content p .button{margin-top:20px;width:40%}
+#overlay{background:#000 url(../images/login/loading.gif) center center no-repeat;display:none;height:700px;opacity:.5;position:absolute;width:960px;z-index:9999}
+.text-input.required{background:#df8f8f;color:#d5d5d5;opacity:.5}
+.button,#main-content table tfoot td .bulk-actions select,.pagination a.number,form input.text-input,form textarea,form .wysiwyg,form select,.dp-popup{-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px}
+.content-box,.content-box-header,ul.content-box-tabs li a.current,.shortcut-button,.notification{-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px}
+.closed-box .content-box-header{-moz-border-radius-bottomleft:6px;-moz-border-radius-bottomright:6px;-webkit-border-bottom-left-radius:6px;-webkit-border-bottom-right-radius:6px;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
+.shortcut-button span{-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px}
+div.wysiwyg ul.panel li a{opacity:0.6}
+div.wysiwyg ul.panel li a:hover,div.wysiwyg ul.panel li a.active{opacity:0.99}
+a:hover,a.remove-link:hover{color:#000}
+.align-right,#login-wrapper #login-content p#remember-password{float:right}
+.content-box-header,ul.content-box-tabs li a.current{-moz-border-radius-bottomleft:0;-moz-border-radius-bottomright:0;-webkit-border-bottom-left-radius:0;-webkit-border-bottom-right-radius:0;border-bottom-left-radius:0;border-bottom-right-radius:0}
